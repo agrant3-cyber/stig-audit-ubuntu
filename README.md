@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # STIG Compliance Audit — Ubuntu Server
 **Tools:** OpenSCAP · SCAP Security Guide (SSG) · DISA STIG · auditd · PAM · sshd_config  
 **Framework Alignment:** NIST 800-53 (CM, AU families) · RMF Steps 3–4 · DISA STIG V1R12  
@@ -293,12 +294,6 @@ Total:  194 rules evaluated
 
 ---
 
-## Resume Bullet
-
-> Conducted STIG compliance audit on Ubuntu Server 24.04 using DISA's SCAP Compliance Checker (SCC); identified 8 CAT I findings across SSH hardening, PAM configuration, and system access controls; remediated 5 high-severity vulnerabilities and documented 3 deferred items with POA&M rationale aligned to NIST 800-53 and RMF continuous monitoring objectives.
-
----
-
 ## References
 
 - [DISA STIG Library — public.cyber.mil/stigs](https://public.cyber.mil/stigs)
@@ -306,3 +301,7 @@ Total:  194 rules evaluated
 - [SCAP Security Guide (SSG)](https://github.com/ComplianceAsCode/content)
 - [NIST SP 800-53 Rev 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [NIST RMF Overview](https://csrc.nist.gov/projects/risk-management/about-rmf)
+=======
+# stig-audit-ubuntu
+DISA STIG compliance audit on Ubuntu Server 24.04 using SCAP Compliance Checker (SCC). Includes findings, remediations, and RMF documentation. 
+>>>>>>> 0904f6475d0e5c7265fb11c0d7b4fd9885347ef8
